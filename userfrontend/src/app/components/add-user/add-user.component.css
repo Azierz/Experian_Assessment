@@ -1,0 +1,77 @@
+/* add users css */
+.submit-form {
+  max-width: 65vh;
+  margin: auto;
+  background-color: rgba(0, 80, 180, 0.75);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+label{
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+
+
+h4{
+  color: white;
+  text-shadow: 2px 1px 1px black;
+  position: relative;
+  padding: 0.3em;
+}
+.btn-reset{
+  background-color: rgb(255, 196, 0);
+  position: relative;
+}
+
+/* user list css */
+.list {
+  max-width: 65vh;
+  margin: auto;
+  background-color: rgba(0, 80, 180, 0.75);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+h3{
+  color: white;
+  text-shadow: 2px 1px 1px black;
+  text-align: center;
+}
+
+/* Use a flexbox layout for the container div */
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Set a width and a margin for the form container div */
+.form-container {
+  width: 40%;
+  margin: 10px;
+}
+
+/* Set a width and a margin for the list container div */
+.list-container {
+  width: 50%;
+  margin: 10px;
+}
+
+/* Use a media query to target screens with a max-width of 768px */
+@media (max-width: 768px) {
+  /* Change the flex direction of the container div to column */
+  .container {
+    flex-direction: column;
+  }
+
+  /* Change the width of the form container div to 100% */
+  .form-container {
+    width: 100%;
+  }
+
+  /* Change the width of the list container div to 100% */
+  .list-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+* {
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 4px 4px 4px black;
+}
+
+.my-toolbar {
+    padding: 1em;
+    background-color: rgba(0, 80, 180, 0.75);
+  }
+    
+.spacer {
+    /* Use flexbox to push other elements to the right */
+    flex: 1 1 auto;
+  }
+  

@@ -1,0 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body {
+    background-image: url(assets/wallpaper.png);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+  }
